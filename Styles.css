@@ -1,0 +1,37 @@
+@media (min-width: 600px) {
+   section {padding-left: 300px;}
+}
+
+@media (max-width: 600px) {
+   .content {padding: 250px 10px 10px 10px;}
+}
+
+* {
+   box-sizing: border-box;
+   font-size: 1.2 Rem;
+   line-height: 1.5;
+   margin: 0;
+   padding: 0;
+}
+#main-doc {
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+header {
+   font-size: 2Rem;
+   padding-bottom: 5px;
+}
+
+.main-section {}
+.nav-link {
+   text-decoration: none;
+   color: black;
+}
+
+#navbar {
+   position: fixed;
+   padding: 10px;
+   font-size: 1.2Rem;
+}
